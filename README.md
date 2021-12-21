@@ -5,6 +5,7 @@ A tool for predicting protein-peptide interactions with a template-based approac
 
                 REQUIREMENTS
 
+
 PEPthread has been tested and runs on Windows, macOS and Linux.
 
 The following packages are required: 
@@ -22,24 +23,28 @@ The following packages are required:
 
 
 
-                DOWNLOAD 
-                  
+       DOWNLOAD 
+                
+                
 PepThreader is freely-available at:
 
 https://github.com/cgasb/PepThreader.git
 
 
 
-              HOW TO USE PepThreader
+    HOW TO USE PepThreader
 
-PEPthread has a command-line usage. Commands and options have to be typed on the command-line as reported next. The "pepthreader.py" script must be in the same directory from which it is run. 
+
+PepThreader has a command-line usage. Commands and options have to be typed on the command-line as reported next. The "pepthreader.py" script must be in the same directory from which it is run. 
 
 
 COMMAND EXAMPLE:
 python pepthreader.py -t ~/THREADER_MODE/PEP_THREADER/DATA/PDBHET_DIR/4QRQ_het.pdb -q ~/THREADER_MODE/PEP_THREADER/DATA/PEP_UNIPROT/P03169.fasta -r A -p C -o ~/THREADER_MODE/PEP_THREADER/test/ --n_jobs 4 -rr 
 
 
-OPTIONS:
+
+    OPTIONS:
+ 
  
 -t = path to receptor protein 
 
