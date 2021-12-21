@@ -25,7 +25,7 @@ The following packages are required:
 
 
 
-       DOWNLOAD 
+    DOWNLOAD 
                 
                 
 PepThreader is freely-available at:
@@ -73,9 +73,12 @@ python pepthreader.py -t ~/THREADER_MODE/PEP_THREADER/DATA/PDBHET_DIR/4QRQ_het.p
 -so = score only. If True, skips modeling phase. In this case models must have been already generated throught PEPthreader.  
 
 
+
  CONTACTS
  
+ 
  e-mail: 
+
 
 
  LICENCE
