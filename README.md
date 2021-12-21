@@ -15,6 +15,8 @@ The following packages are required:
  - tqdm
 
  - MODELLER
+
+
    Before starting modelization, the presence of 'soap_peptide.hdf5' file (MODELLER SCORER) is checked. 
    If the file is not present, it is automatically copied in the proper location to be used by MODELLER.
    
