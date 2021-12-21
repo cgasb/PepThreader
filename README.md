@@ -22,7 +22,7 @@ The following packages are required:
 
 
 
-                  DOWNLOAD 
+                DOWNLOAD 
                   
 PepThreader is freely-available at:
 
