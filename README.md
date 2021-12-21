@@ -70,7 +70,7 @@ python pepthreader.py -t ~/THREADER_MODE/PEP_THREADER/DATA/PDBHET_DIR/4QRQ_het.p
 
 -v = verbose
 
--so = score only. If True, skips modeling phase. In this case models must have been already generated throught PEPthreader.  
+-so = score only. If True, skips modeling phase. In this case models must have been already generated throught PepThreader.  
 
 
 
