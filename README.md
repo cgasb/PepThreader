@@ -1,5 +1,7 @@
 # PepThreader
-A tool for predicting protein-peptide interactions with a template-based approach. 
+Protein-peptide interactions (PPIs) are a subset of the overall protein-protein interaction network in the living cell and are pivotal for the majority of cell processes and functions. High-throughput methods to detect such interactions usually require time and costs that are not always affordable. Therefore, reliable in silico predictions represent a valid and effective alternative. 
+Here a new algorithm is described, implemented in a freely available tool, i.e., ‘**PepThreader**’, to carry out PPIs predictions and analysis. PepThreader threads multiple fragments derived from a protein sequence (or from a sequence library) onto a second template peptide, in complex with a protein target. The hypothetical binding peptides are then identified and ranked according to a sequence-based and structure-based threading score. The threading algorithm first makes use of a scoring function that is based on peptides sequence similarity. Then, a re-rank of the initial hits is performed, according to structure-based scoring functions. PepThreader has been benchmarked on a dataset of 293 protein-peptide complexes that were collected from existing databases of protein-peptide interactions. An accuracy of 80%, when considering the top predicted 25 hits, was achieved, which performs in a comparable way with the other state-of-art tools in PPI modeling. Therefore, PepThreader adds to the already available tools supporting the experimental PPI identification and characterization. 
+ 
 
 
 
@@ -16,7 +18,7 @@ The following packages are required:
 
  - MODELLER (*)
 
-(*) Before starting modelization, the presence of 'soap_peptide.hdf5' file (MODELLER SCORER) is checked. 
+(*) Before starting modeling, the presence of 'soap_peptide.hdf5' file (MODELLER SCORER) is checked. 
 If the file is not present, it is automatically copied in the proper location to be used by MODELLER.
 Because of non-standard installations or denial of writing permission, MODELLER SCORER initialization may fail. In these cases the 'soap_peptide.hdf5' file, which is located in PepThreader main directory must be manually copied in modeller 'modlib' directory to continue with the analysis. 
 
@@ -76,9 +78,7 @@ python pepthreader.py -t ~/THREADER_MODE/PEP_THREADER/DATA/PDBHET_DIR/4QRQ_het.p
 
 
  CONTACTS
- 
- 
- e-mail: 
+ e-mail: serena.rosignoli@uniroma1.it; alessandro.paiardini@uniroma1.it
 
 
 
