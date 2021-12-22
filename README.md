@@ -35,7 +35,10 @@ https://github.com/cgasb/PepThreader.git
     HOW TO USE PepThreader
 
 
-PepThreader has a command-line usage. Commands and options have to be typed on the command-line as reported next. The "pepthreader.py" script must be in the same directory from which it is run. 
+PepThreader has a command-line usage. 
+Commands and options have to be typed on the command-line as reported next. 
+The "pepthreader.py" script must be in the same directory from which it is run. 
+The output directory must already exists
 
 
 COMMAND EXAMPLE:
@@ -50,9 +53,9 @@ python pepthreader.py -t ~/THREADER_MODE/PEP_THREADER/DATA/PDBHET_DIR/4QRQ_het.p
 
 -q = path to sequence in FASTA format
 
--r = to specify the receptor's chain 
+-r = to specify the receptor's chain (e.g. A)
 
--p = to specify the peptide's chain 
+-p = to specify the peptide's chain (e.g. C)
 
 -o = output directory (it must already exists) 
 
