@@ -14,18 +14,16 @@ The following packages are required:
  - pandas 
  - tqdm
 
- - MODELLER
+ - MODELLER (*)
 
-
-   Before starting modelization, the presence of 'soap_peptide.hdf5' file (MODELLER SCORER) is checked. 
-   If the file is not present, it is automatically copied in the proper location to be used by MODELLER.
-   
-   Because of non-standard installations or denial of writing permission, MODELLER SCORER initialization may fail. In these cases the 'soap_peptide.hdf5' file, which is located in PepThreader main directory must be manually copied in modeller 'modlib' directory to continue with the analysis. 
+(*) Before starting modelization, the presence of 'soap_peptide.hdf5' file (MODELLER SCORER) is checked. 
+If the file is not present, it is automatically copied in the proper location to be used by MODELLER.
+Because of non-standard installations or denial of writing permission, MODELLER SCORER initialization may fail. In these cases the 'soap_peptide.hdf5' file, which is located in PepThreader main directory must be manually copied in modeller 'modlib' directory to continue with the analysis. 
 
 
 
 
-       DOWNLOAD 
+    DOWNLOAD 
                 
                 
 PepThreader is freely-available at:
