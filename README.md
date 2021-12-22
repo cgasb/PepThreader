@@ -5,10 +5,11 @@ Here a new algorithm is described, implemented in a freely available tool, i.e.,
 
 
 
-                REQUIREMENTS
+
+    REQUIREMENTS
 
 
-PEPthread has been tested and runs on Windows, macOS and Linux.
+PepThreader has been tested and runs on Windows, macOS and Linux.
 
 The following packages are required: 
 
