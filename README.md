@@ -27,7 +27,8 @@ Because of non-standard installations or denial of writing permission, MODELLER 
 - The parallelization of the processes may not work on macOS. 
 
 
-    DOWNLOAD 
+
+      DOWNLOAD 
                 
                 
 PepThreader is freely-available at:
