@@ -24,6 +24,7 @@ If the file is not present, it is automatically copied in the proper location to
 Because of non-standard installations or denial of writing permission, MODELLER SCORER initialization may fail. In these cases the 'soap_peptide.hdf5' file, which is located in PepThreader main directory must be manually copied in modeller 'modlib' directory to continue with the analysis. 
 
 
+- The parallelization of the processes may not work on macOS. 
 
 
     DOWNLOAD 
@@ -39,13 +40,16 @@ https://github.com/cgasb/PepThreader.git
 
 
 PepThreader has a command-line usage. 
+
 Commands and options have to be typed on the command-line as reported next. 
+
 The "pepthreader.py" script must be in the same directory from which it is run. 
+
 The output directory must already exists
 
 
 COMMAND EXAMPLE:
-python pepthreader.py -t ~/THREADER_MODE/PEP_THREADER/DATA/PDBHET_DIR/4QRQ_het.pdb -q ~/THREADER_MODE/PEP_THREADER/DATA/PEP_UNIPROT/P03169.fasta -r A -p C -o ~/THREADER_MODE/PEP_THREADER/test/ --n_jobs 4 -rr 
+python pepthreader.py -t ~/full/path/1ol5.pdb -q ~/full/path/bora.fasta -r A -p B -o ~/full/path/results/ --n_jobs 4 -rr 
 
 
 
