@@ -48,7 +48,8 @@ The "pepthreader.py" script must be in the same directory from which it is run.
 The output directory must already exists
 
 
-COMMAND EXAMPLE:
+
+    COMMAND EXAMPLE:
 
 (The file 1ol5.pdb and bora.fasta can be found in PepThreader download)
 
@@ -85,8 +86,10 @@ python pepthreader.py -t ~/full/path/1ol5.pdb -q ~/full/path/bora.fasta -r A -p 
 
 
 
- CONTACTS
+
+    CONTACTS
  e-mail: serena.rosignoli@uniroma1.it; alessandro.paiardini@uniroma1.it
+
 
 
 PepThreader is distributed under:
