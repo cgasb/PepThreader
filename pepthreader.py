@@ -258,7 +258,7 @@ Prediction and modeling of protein-peptide interactions using a template-based a
 
 To carry out the analysis, the structure of a protein-peptide complex and a protein sequence are needed.
 
-For further information visit: --github link--
+For further information visit: https://github.com/cgasb/PepThreader.git
 """""
 
 print("\n", bold_start, "PepThreader", bold_end)
