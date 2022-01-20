@@ -24,7 +24,7 @@ If the file is not present, it is automatically copied in the proper location to
 Because of non-standard installations or denial of writing permission, MODELLER SCORER initialization may fail. In these cases the 'soap_peptide.hdf5' file, which is located in PepThreader main directory must be manually copied in modeller 'modlib' directory to continue with the analysis. 
 
 
-- The parallelization of the processes may not work on macOS. 
+The parallelization of the processes may not work on macOS. 
 
 
 
