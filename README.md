@@ -54,7 +54,7 @@ The output directory must already exists
 
 (The file 1ol5.pdb and bora.fasta can be found in PepThreader download)
 
-python pepthreader.py -t ~/full/path/1ol5.pdb -q ~/full/path/bora.fasta -r A -p B -o ~/full/path/results/ --n_jobs 4 -rr 
+python pepthreader.py -t ~/full/path/1ol5.pdb -q ~/full/path/bora.fasta -r A -p B -o ~/full/path/results/ -rr 
 
 
 
