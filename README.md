@@ -19,7 +19,7 @@ The following packages are required:
 
  - MODELLER (*)
 
-- Download of 'soap_peptide.hdf5' file, which must be put in the main directory of PepThreader: salilab.org/SOAP/soap_peptide.hdf5
+- Download of 'soap_peptide.hdf5' file, which must be put in the main directory of PepThreader. Download here: salilab.org/SOAP/soap_peptide.hdf5
 
 (*) Before starting modeling, the presence of 'soap_peptide.hdf5' file (MODELLER SCORER) is checked. 
 If the file is not present, it is automatically copied in the proper location to be used by MODELLER.
