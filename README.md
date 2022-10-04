@@ -6,7 +6,7 @@ Here a new algorithm is described, implemented in a freely available tool, i.e.,
 
 
 
-    REQUIREMENTS
+## REQUIREMENTS
 
 
 PepThreader has been tested and runs on Windows, macOS and Linux.
@@ -30,7 +30,7 @@ The parallelization of the processes may not work on macOS.
 
 
 
-      DOWNLOAD 
+## DOWNLOAD 
                 
                 
 PepThreader is freely-available at:
@@ -39,7 +39,7 @@ https://github.com/cgasb/PepThreader.git
 
 
 
-    HOW TO USE PepThreader
+## HOW TO USE PepThreader
 
 
 PepThreader has a command-line usage. 
@@ -52,15 +52,15 @@ The output directory must already exists
 
 
 
-    COMMAND EXAMPLE:
+## COMMAND EXAMPLE:
 
 (The file 1ol5.pdb and bora.fasta can be found in PepThreader download)
 
-python pepthreader.py -t ~/full/path/1ol5.pdb -q ~/full/path/bora.fasta -r A -p B -o ~/full/path/results/ -rr 
+    python pepthreader.py -t ~/full/path/1ol5.pdb -q ~/full/path/bora.fasta -r A -p B -o ~/full/path/results/ -rr 
 
 
 
-    OPTIONS:
+## OPTIONS:
  
  
 -t = path to receptor protein 
@@ -90,7 +90,7 @@ python pepthreader.py -t ~/full/path/1ol5.pdb -q ~/full/path/bora.fasta -r A -p 
 
 
 
-    CONTACTS
+## CONTACTS
  e-mail: serena.rosignoli@uniroma1.it; alessandro.paiardini@uniroma1.it
 
 
